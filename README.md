@@ -9,3 +9,6 @@ npm install
 ```
 npm run test
 ```
+
+Ref
+https://vue-test-utils.vuejs.org/
