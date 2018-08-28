@@ -7,7 +7,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "jest"
+    "test": "jest",
+    "jest-html": "jest-html"
   },
   "dependencies": {
     "@vue/test-utils": "^1.0.0-beta.24",
@@ -29,6 +30,7 @@
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "babel-preset-es2016": "^6.24.1",
+    "jest-html": "^1.5.0",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
@@ -61,6 +63,7 @@
       "json",
       "vue"
     ],
+    "testRegex": "./test/.*main.spec.js$",
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
       ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"

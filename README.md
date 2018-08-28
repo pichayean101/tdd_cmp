@@ -10,9 +10,12 @@ npm install
 npm run test
 ```
 
-Ref
+### Ref
+```
+
 https://vue-test-utils.vuejs.org/
 https://alexjoverm.github.io/2017/08/21/Write-the-first-Vue-js-Component-Unit-Test-in-Jest/
 
-npm run test -- --watch
+npm run test -- --watchw
 npm run test -- --coverage
+```

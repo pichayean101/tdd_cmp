@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import Register from "./../Register";
+import Register from "./../../src/components/Register";
 
 module.export = describe("Register.vue", () => {
   it("Register form should has firstName", () => {
@@ -18,7 +18,7 @@ module.export = describe("Register.vue", () => {
       lastNameInput.setValue("goodboy");
       expect(wrapper.vm.user.lastName).toBe("goodboy");
   });
-  it("Sex should be selected M", () => {
+  it("Sex should be selected M ", () => {
     const wrapper = mount(Register);
       const select = wrapper.find({ ref: "sex" });
       select.setValue("M");

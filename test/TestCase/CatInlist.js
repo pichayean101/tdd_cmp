@@ -1,7 +1,7 @@
 import Vue from "vue";
 import { mount } from "vue-test-utils";
-import App from "./../../App.vue";
-import MessageList from "@/components/MessageList.vue";
+import App from "./../../src/App.vue";
+import MessageList from "./../../src/components/MessageList.vue";
 
 describe("Cat in List expect data() by Simple Way", () => {
     let cmp, vm;
