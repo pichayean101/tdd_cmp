@@ -11,7 +11,6 @@ import Register from './components/Register'
 
 export default {
   name: 'app',
-  name: 'app',
   components: {
     Register
   }

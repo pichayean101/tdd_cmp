@@ -3,4 +3,5 @@
 /dist/
 /src/components/testd/*.js
 /test/*.js
+/src/components/*.vue
 /test/TestCase/*.js

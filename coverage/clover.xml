@@ -1,29 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1535421060301" clover="3.2.0">
-  <project timestamp="1535421060301" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="39" coveredelements="39" complexity="0" loc="31" ncloc="31" packages="2" files="2" classes="2">
-      <package name="components">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <file name="Register.vue" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\src\components\Register.vue">
-          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-          <line num="23" count="5" type="stmt"/>
-          <line num="35" count="1" type="stmt"/>
+<coverage generated="1535446488609" clover="3.2.0">
+  <project timestamp="1535446488609" name="All files">
+    <metrics statements="115" coveredstatements="114" conditionals="0" coveredconditionals="0" methods="42" coveredmethods="42" elements="157" coveredelements="156" complexity="0" loc="115" ncloc="115" packages="3" files="12" classes="12">
+      <package name="src">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="App.vue" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\src\App.vue">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="10" count="1" type="stmt"/>
         </file>
       </package>
-      <package name="components.test">
-        <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
-        <file name="Register_test.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\src\components\test\Register_test.js">
-          <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <package name="src.components">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <file name="Counter.vue" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\src\components\Counter.vue">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+        </file>
+        <file name="MessageList.vue" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\src\components\MessageList.vue">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+        <file name="Register.vue" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\src\components\Register.vue">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="23" count="4" type="stmt"/>
+          <line num="36" count="2" type="stmt"/>
+          <line num="37" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="test.TestCase">
+        <metrics statements="107" coveredstatements="106" conditionals="0" coveredconditionals="0" methods="37" coveredmethods="37"/>
+        <file name="CatInlist.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\CatInlist.js">
+          <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+        </file>
+        <file name="Counter.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\Counter.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
           <line num="4" count="1" type="stmt"/>
           <line num="5" count="1" type="stmt"/>
           <line num="6" count="1" type="stmt"/>
           <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+        </file>
+        <file name="Register.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\Register.js">
+          <metrics statements="43" coveredstatements="43" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
           <line num="9" count="1" type="stmt"/>
-          <line num="10" count="1" type="stmt"/>
           <line num="11" count="1" type="stmt"/>
           <line num="12" count="1" type="stmt"/>
           <line num="13" count="1" type="stmt"/>
-          <line num="15" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
           <line num="16" count="1" type="stmt"/>
           <line num="17" count="1" type="stmt"/>
           <line num="18" count="1" type="stmt"/>
@@ -32,7 +73,7 @@
           <line num="22" count="1" type="stmt"/>
           <line num="23" count="1" type="stmt"/>
           <line num="24" count="1" type="stmt"/>
-          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
           <line num="27" count="1" type="stmt"/>
           <line num="28" count="1" type="stmt"/>
           <line num="29" count="1" type="stmt"/>
@@ -41,8 +82,84 @@
           <line num="32" count="1" type="stmt"/>
           <line num="33" count="1" type="stmt"/>
           <line num="34" count="1" type="stmt"/>
-          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
           <line num="37" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="56" count="2" type="stmt"/>
+          <line num="57" count="2" type="stmt"/>
+        </file>
+        <file name="Wrapper_Classes.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\Wrapper_Classes.js">
+          <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+        <file name="math.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\math.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+        <file name="maths.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\maths.js">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+        </file>
+        <file name="test01.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\test01.js">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+        <file name="test02.js" path="C:\Users\Pichayean.Yen\Desktop\node\tdd_cmpv2\test\TestCase\test02.js">
+          <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>

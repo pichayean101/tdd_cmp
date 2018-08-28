@@ -1,8 +1,5 @@
 <template>
 <div>
-    <p>
-        {{user}}
-    </p>
     First name:<br>
     <input type="text" v-model="user.firstName" ref="firstName" value="Mickey"><br> 
     Last name:<br>
@@ -13,11 +10,14 @@
             {{ s.name }}
         </option>
     </select><br><br>
-    <button @click="save">Increment</button>
-
+    <button @click="save">Add</button>
+    <br><br>
+    <center><Table  v-bind:dataTable="users"/></center>  
+    
 </div>
 </template>
 <script>
+import Table from './Table'
 export default {
     data(){
         return {
@@ -27,13 +27,18 @@ export default {
                 sex:'M'
             },
             fullName:'',
-            sex : [{name:'Men',value:'M'},{name:'Female',value:'F'}]
+            sex : [{name:'Men',value:'M'},{name:'Female',value:'F'}],
+            users:[{firstName:'BB',lastName:'bbb'}, {firstName:'CC',lastName:'ccc'}]
         }
     },
     methods: {
         save(){
             this.fullName =  `${this.user.firstName } ${this.user.lastName }; sexual : ${this.user.sex }`
+            this.users.push({firstName:this.user.firstName,lastName:this.user.lastName})
         }
+    },
+    components: {
+        Table
     }
 }
 </script>

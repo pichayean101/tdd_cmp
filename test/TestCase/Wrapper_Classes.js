@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import Component from "./../../src/components/Wrapper_Classes.vue";
+import Component from "@/components/Wrapper_Classes";
 
 module.export = describe("Wrapper_Classes.vue", () => {
     it("Wrapper_Classes should has classes test01", () => {

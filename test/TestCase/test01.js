@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import Component from "./../../src/components/HelloWorld.vue";
+import Component from "@/components/HelloWorld";
 module.export = describe("HelloWorld.vue", () => {
   test("is a Vue instance", () => {
     const wrapper = mount(Component);
