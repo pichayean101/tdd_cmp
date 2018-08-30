@@ -33,10 +33,8 @@ export default {
     },
     methods: {
         save(){
-            this.fullName =  `${this.user.firstName } ${this.user.lastName }; sexual : ${this.user.sex }`
             this.users.push({firstName:this.user.firstName,lastName:this.user.lastName})
-        },
-        
+        }
     },
     components: {
         Table

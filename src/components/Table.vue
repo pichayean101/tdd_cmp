@@ -16,10 +16,7 @@
 <script>
 /* eslint-disable */
 export default {
-    props: ['dataTable'],
-    // props: {
-    //     dataTable: []
-    // }
+    props: ['dataTable']
 }
 </script>
 
