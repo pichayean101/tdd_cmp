@@ -10,7 +10,7 @@ Jest has a watch mode that comes in handy for it. It doesn’t only watch for fi
 Built-in code coverage reports
 -Easily create code coverage reports using --coverage. No additional setup or libraries needed! Jest can collect code coverage information from entire projects, including untested files.
 ```
-![alt text](https://jestjs.io/img/blog/collective.png)
+![alt text](https://jestjs.io/img/content/feature-coverage.png)
 
 
 ```
@@ -20,8 +20,6 @@ Open Collective is a platform to manage groups of people transparently. Jest joi
 ![alt text](https://jestjs.io/img/blog/collective.png)
 
 
-
-![alt text](https://www.youtube.com/watch?v=I6A9nlSLNoM)
 
 ## Project setup
 ```
