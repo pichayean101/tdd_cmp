@@ -9,6 +9,7 @@ npm install
 ```
 npm run test
 ```
+![alt text](https://jestjs.io/img/content/feature-coverage.png)
 
 ### Ref
 ```
@@ -20,7 +21,6 @@ Jest is used by Facebook to test all JavaScript code including React application
 Built-in code coverage reports
 -Easily create code coverage reports using --coverage. No additional setup or libraries needed! Jest can collect code coverage information from entire projects, including untested files.
 
-![alt text](https://jestjs.io/img/content/feature-coverage.png)
 
 
 The Jest Open Collective
